@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_refactor/pages/home_page.dart';
+import 'package:quiz/screens/home_screen.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Quiz App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       home: const HomePage(),
     );
